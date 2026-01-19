@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contentArea">
+            <h1>Basic Banking</h1>
+            <p id="balance">Balance: $0</p>
+            <div class="buttons">
+                <button id="withdraw">Withdraw</button>
+                <button id="deposit">Deposit</button>
+            </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <div class="modal" id="depositBox">
+            <h3>Deposit Amount</h3>
+            <input type="number" id="depositAmount" placeholder="Enter amount">
+            <button id="confirmDeposit">Confirm</button>
+            <button class="cancel" id="closeDeposit">Cancel</button>
+        </div>
+        <div class="modal" id="withdrawBox">
+            <h3>Withdraw Amount</h3>
+            <input type="number" id="withdrawAmount" placeholder="Enter amount">
+            <button id="confirmWithdraw">Confirm</button>
+            <button class="cancel" id="closeWithdraw">Cancel</button>
+        </div>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>

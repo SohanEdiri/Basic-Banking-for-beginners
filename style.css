@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentArea{
+    width: 350px;
+    max-width: 90%;
+    background: white;
+    padding: 28px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.contentArea h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#balance{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #4f46e5;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.buttons button{
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#deposit{
+    background: #22c55e;
+    color: white;
+}
+
+#deposit:hover{
+    background: #16a34a;
+    transform: scale(1.05);
+}
+
+#withdraw{
+    background: #ef4444;
+    color: white;
+}
+
+#withdraw:hover{
+    background: #dc2626;
+    transform: scale(1.05);
+}
+
+.overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(4px);
+    display: none;
+    z-index: 10;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    display: none;
+    z-index: 20;
+    transition: 0.3s;
+}
+
+.modal h3{
+    margin-bottom: 12px;
+}
+
+.modal input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.modal button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.modal button:not(.cancel){
+    background: #4f46e5;
+    color: white;
+}
+
+.modal .cancel{
+    background: #e5e7eb;
+}
