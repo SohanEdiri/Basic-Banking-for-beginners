@@ -42,4 +42,4 @@ Free to use for learning and personal projects.
 
 ![image alt](https://github.com/SohanEdiri/Basic-Banking-for-beginners/blob/ae4c89938f38af1f638b1da0b0bd5d67d0cc4b8d/Screenshot%202026-01-19%20151830.png)
 ![image alt](https://github.com/SohanEdiri/Basic-Banking-for-beginners/blob/e4f4294afc41144391fb2bb13c4023cb542114e9/Screenshot%202026-01-19%20151843.png)
-![image alt](https://github.com/SohanEdiri/Basic-Banking-for-beginners/blob/e4f4294afc41144391fb2bb13c4023cb542114e9/Screenshot%202026-01-19%20151843.png)
+![image alt](https://github.com/SohanEdiri/Basic-Banking-for-beginners/blob/4d472bccc427da40ae20f1bf885ef9a37218d5ac/Screenshot%202026-01-19%20151854.png)
