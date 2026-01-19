@@ -39,3 +39,5 @@ Contributions and ideas are welcome!
 
 ## 📜 License
 Free to use for learning and personal projects.
+
+![image alt](https://github.com/SohanEdiri/Basic-Banking-for-beginners/blob/ae4c89938f38af1f638b1da0b0bd5d67d0cc4b8d/Screenshot%202026-01-19%20151830.png)
